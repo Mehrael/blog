@@ -46,7 +46,7 @@ Route::get('login', [admin::class, 'login']);
 
 Route::post('loginRequest', [admin::class, 'loginRequest']);
 
-Route::get('blog', [blog::class, 'index']);
+Route::get('home', [blog::class, 'index']);
 
 Route::get('post/{id}', [blog::class, 'post']);
 
